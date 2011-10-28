@@ -7,9 +7,17 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 
+#Added by me
+group :development do
+  gem 'rspec-rails', '2.7.0'
+end
 
-# Gems used only for assets and not required
-# in production environments by default.
+#Added by me
+group :test do
+  gem 'rspec', '2.7.0'
+end
+
+#Originally in Gemfile (NOT added by me)
 group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
@@ -18,12 +26,4 @@ end
 
 gem 'jquery-rails'
 
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
 
