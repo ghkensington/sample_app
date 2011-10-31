@@ -15,6 +15,7 @@ end
 #Added by me
 group :test do
   gem 'rspec', '2.7.0'
+  gem 'webrat'
 end
 
 #Originally in Gemfile (NOT added by me)
